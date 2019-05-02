@@ -1,0 +1,34 @@
+/*
+    tag list
+    ======================== */
+
+
+// post-top-tags //
+
+.post-top-tags {
+  display: inline;
+  padding: 10px;
+}
+.post-top-tags >li {
+  display: inline;
+}
+
+
+
+
+
+// normal tags //
+.post-tags {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 1em;
+  color: #aaa;
+}
+
+.post-tags >li{
+  display: inline;
+  padding: 4px 8px;
+}

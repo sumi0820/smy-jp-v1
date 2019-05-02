@@ -1,0 +1,176 @@
+@import "variables";
+
+/*
+    body
+    ======================== */
+
+body {
+  font-family: $body-font;
+  font-size: 1.05em;
+  line-height: 1.85em;
+  color: $body-color;
+}
+
+strong {
+ font-weight: normal;
+ background-color: $blog-color;
+}
+
+
+img {
+  display: block;
+  margin: auto;
+}
+
+
+blockquote {
+  border-left: 10px solid #333;
+  padding: 10px 30px 10px 30px;
+  font-size: 0.9em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.small {
+  font-size: 0.9em;
+}
+
+// background-color for the main title of blog, work, about page //
+
+.blog-title {
+  // background-color: $blog-color;
+  padding: 5px;
+}
+
+.cat-title {
+  font-size: 2.6em;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0em 0.4em;
+  border-left: solid 8px #eee;
+}
+
+.tag-cat-title {
+  text-transform: capitalize;
+}
+
+.post-title {
+  // background-color: $blog-color;
+  padding: 5px;
+}
+
+
+
+// post page
+
+.blog-excerpt {
+  color: #616A6B;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.blog-list-font {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2em;
+  }
+
+// page description
+.page-description {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+// post date
+
+.post-date {
+  color: #888;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+
+.profile-image {
+  margin-left: 20px;
+}
+
+// media info of work
+
+
+// chcolonogical bio on about page
+
+
+.social-icon {
+  text-align:center;
+  letter-spacing: 10px;
+  color:#909090;
+  margin-bottom: 20px;
+}
+
+//socialmedia icon
+.fa {
+  padding: 12px;
+  font-size: 12px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 5px;
+  border-radius: 50%;
+    &:hover {
+      opacity: 0.7;
+    }
+}
+
+
+.social-follow {
+  text-align: center;
+}
+
+// Footer Fontawesome
+
+.circle-fa {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 1em;
+  background:#606060;
+  color: #fff;
+}
+
+.circle-linkedin {
+  border-radius: 50%;
+  padding: 0.3em 0.35em;
+  background:#606060;
+  color: #fff;
+  margin: 0.15em;
+}
+
+
+.circle-github {
+  color: #606060;
+  font-size: 1.6em;
+  margin: 0 2px 4px 2px;
+}
+
+.circle-tw {
+  padding: 0.3em 0.3em;
+}
+
+.circle-fb{
+  padding: 0.3em 0.55em;
+}
+
+.circle-codepen {
+  padding: 0.3em 0.35em;
+}
+
+.circle-env {
+  padding: 0.3em 0.3em;
+}
+
+.caret-right{
+  font-size: 1.5em;
+  color: #909090;
+}
