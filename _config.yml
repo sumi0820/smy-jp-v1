@@ -51,5 +51,13 @@ paginate_path: "/blog/page:num/"
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
 # //cd smy_blog/
 # //bundle exec jekyll serve
+
+# //git init
+# //git checkout -b gh-pages
+# //git add .
+# //git commit -m "initial commit"
+# //git remote origin https://github.com/sumi0820/smy
+# //git push origin gh-pages
