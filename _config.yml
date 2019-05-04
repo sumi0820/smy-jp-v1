@@ -51,7 +51,6 @@ paginate_path: "/blog/page:num/"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
 # //cd smy_blog/
 # //bundle exec jekyll serve
 
