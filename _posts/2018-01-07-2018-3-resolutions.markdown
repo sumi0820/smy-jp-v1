@@ -8,7 +8,7 @@ tags: blog
 description: 怒涛の勢いで年末年始が過ぎてようやくゆっくりできる時間ができた。
 permalink: "2018-3-resolutions"
 ---
-![top](/img/20180107.jpg "top")
+![top]({{ post.url }}/img/20180107.jpg "top")
 <br>
 怒涛の勢いで年末年始が過ぎてようやくゆっくりできる時間ができた。  
 
