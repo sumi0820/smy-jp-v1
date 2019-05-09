@@ -1,20 +1,17 @@
-<nav>
+<!-- <nav>
   <div class="nav-container sticky">
     <div class="nav-left">
     <a href="{{ site.url }}/" class="hover-line">{{ site.title }}</a>
-    </div>
+</div>
     <div class="nav-center">
         <ul>
           <li><a href="{{ site.url }}/blog/" class="hover-line">Blog</a></li>
-        <!--  <li><a href="/work/" class="hover-line">Work</a></li> -->
           <li><a href="{{ site.url }}/about/" class="hover-line">About</a></li>
         </ul>
     </div>
     <div class="nav-right">
       <a href="https://twitter.com/sumiya0820" target="_blank">
         <i class="fab fa-twitter circle-tw"></i></a>
-      <!-- <a href="" target="_blank">
-      <i class="fab fa-facebook-f circle-fb"></i></a>-->
       <a href="https://www.instagram.com/sumi0820" target="_blank">
         <i class="fab fa-instagram circle-tw"></i></a>
     </div>
@@ -22,5 +19,28 @@
       <input type="text" name="search">
       <button type="submit"><i class="fa fa-search"></i>
     </div>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
   </div>
 </nav>
