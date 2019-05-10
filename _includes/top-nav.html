@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<nav class="navbar navbar-dark bg-dark">
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
       <a class="navbar-brand" href="{{ site.url }}/">smy</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,17 @@
         <a href="https://www.instagram.com/sumi0820" target="_blank">
           <i class="fab fa-instagram circle-tw"></i></a>
       </div> -->
+      <li class="nav-item dropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="{{ site.url }}/blog/">Blog</a>
+          <a class="dropdown-item" href="{{ site.url }}/about/">About</a>
+          <a class="dropdown-item" href="#">Photo</a>
+        </div>
+    </li>
 
     <form class="form-inline">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </nav>
+</nav>
