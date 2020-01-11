@@ -1,6 +1,6 @@
 ---
 layout: post-layout2
-title:  "2018年、3つのじぶんルール"
+title:  "独学でプログラミングを勉強してみた"
 date:   2018-01-07 20:57:00 +0800
 author: Sumiya Ushiro
 image: 20180107.jpg
@@ -10,61 +10,195 @@ permalink: "2018-3-resolutions"
 ---
 ![top]({{ site.url }}/img/20180107.jpg "top")
 <br>
-怒涛の勢いで年末年始が過ぎてようやくゆっくりできる時間ができた。  
 
-年末年始だけでなく2017年はとてもムラがあり、心も身体も疲弊しまくった１年だった。  
+独学前は簡単なhtml、cssを知っているぐらいでした。
+Myルールとして以下を設定していました。
+・基本的には英語で学ぶ
+・一ヶ月毎に翌月の目標を
 
-そこで「2018年はもっと身軽に過ごしたい…！」と思い、
-今回３つのルールを自分に課してみようと思う。  
-<br>
-<h1>1. Work Life Balance</h1>
 
-まずちゃんと休みをとる。
+2月
+この頃の目標は９月頃に転職できればいいかなぁ、と漠然としたノリでスタート。
+ただ、何から手をつけていいかまったくわからず、とりあえず勉強方法や教材を調べる。
 
-2017年は1ヶ月間無職のあと、1ヶ月間無休で働いたりアメリカ時間で稼働したりととてもムラが多かった。ストレスフルで多忙なマネジメントに移ったこともあり、心も身体も疲弊しきってしまうことが幾度と無くあった。
+参考にしたサイトは以下。
 
-だから今年は意識して休む。  
+基本的な方針はここを参考しました。とりあえず、無料で始められるってところがよかったので概要を把握するにはよきでした。
+https://medium.com/zerotomastery/learn-to-code-in-2019-get-hired-and-have-fun-along-the-way-d4197f96be27
 
-任せるところは任せて仕事に余裕をつくる。
+目標とする海外在住日本人プログラマーの方々の記録も自分の原点として行き詰まっては何度も読み返していました。
+http://www.ykst.de/what-i-studied/
+https://note.com/y_ukyk/n/n577cd5a78953
 
-"Job is job. My life is my life. Do what I love."の精神でちゃんと休む。
+とりあえず、JavaScriptを理解しないと次に進めないということで、当面の目標をJavaScriptの理解と応用にしていました。
 
-<br>
-<h1>2. 「今」を意識して生きる</h1>
+メイン教材
+Introduction to JavaScript
+Eloquent Javascript
 
-振り返ると2017年に限らず、海外に出てからというもの過去を引きずったり、未来に期待を持ち過ぎたりということが多かったように思う。  
+３月
+引き続きIntroduction to JavaScriptとEloquent Javascriptを進める。
+ただ、JavaScriptの基礎って超アバウト（実はとっても大事なんだけど）な感じがして理解に苦しむ。
 
-それが作用してうまく行かなかった時には相当落ち込んだし、先のことを心配してなかなか踏み出せなかったということが度々あった。
+Loopsぐらいまではどうにか進めたけど、それ以降FunctionやらObjectのネスト化など、一体どんな風にWebページにリンクして貢献しているのかがまったくもって理解できなかった時期。
 
-そこで自分の声を聴くために過去を引きずらず、未来にも期待しない。
-野望や目標、夢も脇道に置いておく。  
+理解できてなくても、やり進める。
 
-自分で自分を振り回さないように、「今」により焦点を当てて過ごしたい。
+メイン教材
+Introduction to JavaScript
+Eloquent Javascript
 
-他人にも期待しない。いまのその人の姿を感じる。過去がどうとか、これからどうなるかなんてことは考えない。
 
-常にゼロベースのつもりで、他者の思考・人生をなぞらず自分で感じたことに従っていく。
+４月
+結局、Introduction to JavaScriptをやっても超基礎ワード覚えたぐらいで、全然JSを理解できてなかったことにショックを覚える。
+横断的にAndrewのMediumに掲載されてるサイトなども試しながら、自分にあった勉強法や教材を探し求める。
 
-<br>
-<h1>3. 深く考えない</h1>
+そんな折にちょうどAndrewのUdemyコースがディスカウントされたタイミングで思い切ってThe Complete Web Developer in 2019: Zero to Masteryを購入。
 
-1と2に非常に関連しているのだけど、思考パターンと行動パターンをもう一度見直してアップデートしたい。
+これが結果的に大いに活躍。
 
-できるだけシンプルに、先のことを考えず、終わったことを引きずらない。考えるより行動していく。
+メイン教材
+The Complete Web Developer in 2019: Zero to Mastery
 
-誰かが出した答えに合わせるための行動ではなく、自分で答えをつくっていくための行動。そのために他人の型にハマらずにゼロベースで生きていく。
-<br>
-<br>
-<h1>**おわりに…**</h1>
+５月
+ただ動画見るだけは絶対に覚えていけないと思い、Zero to Masteryと並行して簡易的なブログ制作に乗り出す。
+参考にしたのは勉強を始めるきっかけになった佐藤有希さんのこちらhttp://www.ykst.de/i-made-blog-with-jekyll/の記事。
 
-2018年はみんなが掲げるような意識高い目標から距離を置こう。
-尊敬する方、憧れの方の背中も追わない。  
+少し古い動画にはなるけど、Giraffe AcademyのMikeチュートリアルはわかりやすかった。
+https://www.youtube.com/watch?v=T1itpPvFWHI&feature=youtu.be
 
-そこに到達できたかどうかよりも、日々の生活からムダな思考をできるだけ削ぎ落として一歩を踏み出していくことの方が大事だと思うから。  
+とりあえず、自分で佐藤さんのブログを再現してみようということで見様見真似で進めていく。
+佐藤さんのコードを分析しながら、自分なりにイジれる部分をアレンジしながらGitHub経由でDeployまでこぎつける。
+Jekyllのインストールでつまづき、Terminalを使ってのcommitやpushでも四苦八苦したのはいい思い出。
 
-こうして考えを言葉にすることも他人の評価を得るためにやるんじゃない。
-シンプルにいまやってみたいと思ったからやる。  
+メイン教材
+https://www.youtube.com/watch?v=T1itpPvFWHI&feature=youtu.be
 
-やりたいことを気取らず背伸びせずにゆるーくやってみる、それが2018年。  
+6月
+JekyllでCSSの理解が危ういことに気づいたのでZero to Masteryを見直して自分でもFlexboxやBootstrapを使ったページを作ったりしていました。
 
-Simple is the best.
+本業が四半期決算ということで、忙しくなり学習時間があまりとれずこの月は終了。
+
+７月
+機は熟した！といよいよJavaScriptを使ったページにも挑戦し始めたのがこの時期。
+今思えばなぜそれまでやってこなかったのか不思議なのですが…。
+
+とりあえず、評判のいいWes BossのJavaScript30に挑戦。
+
+が、しかし、１つ目のチュートリアルからハイレベル過ぎたのと、このチュートリアルの使い方がわからなかったので即挫折。
+
+代わりにYouTube上にある短いチュートリアル動画を観ながら自分でJSを使ったアプリでページを作成。
+目標は週１で１アプリ。
+
+Dev Edのチュートリアルを動画は簡潔で分かりやすくて非常によかったです。
+
+Visual effect in vanilla javascript tutorial
+https://www.youtube.com/watch?v=C_JKlr4WKKs
+
+Build A Music App With Javascript Tutorial
+https://www.youtube.com/watch?v=2VJlzeEVL8A&t=924s
+
+Make Music With Javascript Tutorial
+https://www.youtube.com/watch?v=8T4SCksjrQ4
+
+Build A Meditation App With Javascript HTML & CSS
+https://www.youtube.com/watch?v=oMBXdZzYqEk&t=1930s
+
+Create a 2.5D Parallax Effect In Javascript Tutorial | Javascript Tutorial
+https://www.youtube.com/watch?v=BfEQ1qgYsts
+
+
+Traversy Mediaも有名ですね。
+
+JavaScript BookList App | No Frameworks
+https://www.youtube.com/watch?v=JaMCxVWtW58
+
+Coding Challenge #5: Space Invaders in JavaScript with p5.js
+https://www.youtube.com/watch?v=biN3v3ef-Y0
+
+８月
+
+JavaScriptやりまくってちょっと気分転換にと思いReactに挑戦し始めたのがこの時期。
+シンプルに増田さんが紹介していたThe Complete React Developer Course (w/ Hooks and Redux)に挑戦。
+https://www.udemy.com/course/react-2nd-edition/
+
+最初は「えー!!JSでHTML使えるなんてめっちゃ楽やん！」とか思える程に興奮していたのですが、Lifecycle methodで挫折。
+なんでわざわざmountしてupdateしてunmountするの？っていう超初歩的なところに納得いかず、Redux手前でとりあえず寝かす。
+
+このままではよくないということで、これまたDev EdのReact動画やその他Reac解説系やチュートリアル動画をYouTudeで見漁る。
+ただし、この時点ではReactを使ってなんのアプリも作成はせず…。
+
+９月
+目標としてはnode.jsを勉強しようとしていました。
+
+していました。
+
+いや、しませんでした…。
+
+理由は色々あるのですが、大きなきっかけとなったのは月の前半に行ったフランス旅行。
+
+ちょうど転職目標にしていた９月に差し掛かって改めて現状の自分の理解度やスキルを考えると、フルタイムの仕事と並行しているとはいえ効率がよくないと思っていました。
+
+そこで、思い切ってBootcampに挑戦してみてはどうだろう…？と思い立ったのがフランス旅行直前。
+
+パリ滞在中にはアポがとれたBootcampに話を聞きに行ったりしてイメージを膨らませて、帰国後には目標を転職からBootcamp参加に変更。
+ターゲットにしたのは佐藤さんと同じベルリンのIronhack。
+
+カリキュラムや授業内容が佐藤さんのnoteとブログで詳細が把握でき、卒業後の就職までがイメージできたことが決めてです。
+
+10月
+ブートキャンプでのテクニカルテストを想定してCodeWarsを始めてみる。
+https://www.codewars.com/dashboard
+
+8kyuから始めるも手も足も出ずで悔しい思いをする。
+
+結局JSを勉強しても使いこなせないと意味がないし、問題解決できないようなコードを学んでもしょうがない。
+と、当たり前なことに改めて気付いて足りない部分を補うようにJSを初歩から見直し。
+
+基本に立ち返り公式Docを初めて読んでみると、これが意外とよかった。
+なんで今まで読まなかったんだろうと思える程に必要なことが分かりやすく解説されていたので感動。
+
+ただ、全くの初心者が読んでもさっぱりわからないと思うので、ある程度JS勉強してReferenceとしてBookmarkしておくとよきです。
+
+一方でReactにもう一度挑戦を決意。
+JSの公式Docがよかったので、Reactもそっちから攻めようと思い読み進めると、やっぱりこれもよかった。
+
+11月
+ひたすらCodeWarsをやってはnotionにわからなかったことを書き込んでいく日々。
+8kyuを50問近くやっても一向に正答率は上がらなかったけど、やりこんだおかげでいろんなmethodが知れた。
+Methodを学ぶことで、今まで気にもかけなかったstring, Number, Arrayの性質をより深く知れただけでなく、YouTubeのチュートリアルの説明がより一層わかりやすいものになった。
+
+
+Reactの理解が深まったのでYouTubeで関連動画を見漁る。
+
+特によかったのがThe Net NinjaのComplete React Tutorial (& Redux )。シンプルでかつ分かりやすくて下手に有料のチュートリアル買うぐらいなら断然これをオススメしたい。
+
+他にもBuild a Reactjs app with the Google Books APIを参考に書籍検索ページを作成したり、ベタにTodoアプリを作ってみた。
+https://www.youtube.com/watch?v=6sBqMyUOcl8&t=6s
+
+JSの全体像とMethodの使い方がわかり始めたおかげで、Reactの構造や目的も結構すんなり入ってきた。
+今までLibraryとかFrameworkとか言われてもいまいち理解できてなかったのが、この辺りから腑に落ちるようになる。
+
+
+12月
+目標にしていたIronhackベルリンが突然奨学金制度を発表していることを申し込み締切日に偶然知り、速攻で申し込む。
+
+テクニカルテストの準備として推奨されたCodecademyのIntroduction to JavaScriptを数ヶ月ぶりにやってみる。
+初期に比べて圧倒的に理解度が深まっており、つまづいていたネスト化やオブジェクトに関する問題も一応理解。
+
+その後、すぐにテクニカルテストを受けて無事パス。
+
+無駄だと思っていた10ヶ月間が報われた気がして、合格のメール受け取って思わずガッツポーズをとってしまった。
+
+ベルリンはホリデーシーズンで、本業も四半期決算で忙しかったのでインタビューは1月にスケジュール。
+
+1月
+たとえ奨学金が手に入らなくても絶対にBootcampには行きたい！と意気込む、
+ターゲットにしている6月始まりのブートキャンプまでにポートフォリオサイトを充実させようと評判のよいGatsby.jsに着手。
+
+Starterセットが充実しているので気軽に始められる上、なかなかオシャレに仕上がるのでおすすめ。
+
+ちなみに、できあがったのがこちら、
+
+一方でインタビューに向けてIronhackの担当者にメールで色々質問。
+担当者にあなたのテクニカルテストのスコアはいい
